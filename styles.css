@@ -3,6 +3,12 @@
       margin: 0.5rem 0;
       width: 100%;
   }
+  #recommend-label, #feedback label, #checkbox-label {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
   select {
     display: block;
     margin: 0.5rem 0;
@@ -27,10 +33,26 @@
   #title, #description{
       text-align: center;
   }
-  #submit{
-      width: 100%;
-      display: block;
-      margin: 0.5rem 0;
-      background-color: #00f500ba;
-      color: white;
+
+  textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+  min-height: 2em;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(6, 123, 68);
+    border-color: rgb(6, 123, 68);
+    min-width: 300px;
+    color: white;
+  }
+  input [type="checkbox"]{
+    display: block;
+    width: 100%;
+    margin: auto;
+
   }
