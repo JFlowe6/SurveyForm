@@ -1,10 +1,12 @@
 #personal-details label input {
     display: block;
       margin: 0.5rem 0;
+      width: 100%;
   }
-  select{
+  select {
     display: block;
     margin: 0.5rem 0;
+    width: 100%;
   }
   body {
     width: 100%;
@@ -14,4 +16,21 @@
       color: #f5f6f7;
     font-family: Tahoma;
       font-size: 16px;
+  }
+  form {
+    width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  #title, #description{
+      text-align: center;
+  }
+  #submit{
+      width: 100%;
+      display: block;
+      margin: 0.5rem 0;
+      background-color: #00f500ba;
+      color: white;
   }
