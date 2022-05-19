@@ -10,12 +10,19 @@
 <body>
     <h1 id="title"> Survey Form</h1>
     <p id="description">This is my survey form</p>
+    <div>
     <form id="survey-form">
         <fieldset>
-            <label>Name</label>
-            <input id="name" type="text" placeholder="Enter your full name">
+            <label id="name-label">Name</label>
+            <input id="name" type="text" placeholder="Enter your full name" required>
+            <label id="email-label">Email</label>
+            <input id="email" type="email" placeholder="Enter your email address" required>
+            <label id="number-label">Number</label>
+            <input id="number" type="number" placeholder="0" min="1" max="4">
+
         </fieldset>
 
     </form>
+    </div>
 </body>
 </html>
