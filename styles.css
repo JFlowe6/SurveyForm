@@ -1,6 +1,10 @@
-label {
+#personal-details label input {
     display: block;
       margin: 0.5rem 0;
+  }
+  select{
+    display: block;
+    margin: 0.5rem 0;
   }
   body {
     width: 100%;

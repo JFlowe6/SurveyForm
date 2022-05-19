@@ -12,7 +12,7 @@
     <p id="description">This is my survey form</p>
     <div>
     <form id="survey-form">
-        <fieldset>
+        <fieldset id="personal-details">
             <label id="name-label">Name<input id="name" type="text" placeholder="Enter your full name" required></label>
             <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email address" required></label>
             <label id="number-label">Age (optional)<input id="number" type="number" placeholder="Enter your Age" min="13" max="120"></label>
@@ -25,10 +25,21 @@
                 <option value="4">Other</option>
             </select>
         </label>
+        </fieldset>
+        <fieldset id="feedback">
         <label id="recommend-label">Would you recommend blah blah blah?</label>
         <label><input type="radio" name="recommend"> Definitely</label>
         <label><input type="radio" name="recommend"> Maybe</label>
         <label><input type="radio" name="recommend"> No</label>
+        <label id="checkbox-label"> What would you like to be improved?
+            <input type="checkbox" value=""> Option 1
+            <input type="checkbox" value="1"> Option 2
+            <input type="checkbox" value="2"> Option 3
+            <input type="checkbox" value="3"> Option 4
+            <input type="checkbox" value="4"> Option 5
+            <input type="checkbox" value="5"> Option 6
+        </label>
+
     </fieldset>
     </form>
     </div>
